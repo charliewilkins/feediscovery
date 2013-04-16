@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://feediscovery.appspot.com/?url=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - 1kpl.us/ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bm8tY2FjaGU=
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VHVlLCAxNiBBcHIgMjAxMyAxMjo0MzozNCBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        R29vZ2xlIEZyb250ZW5k
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMDEg
+        VHJhbnNpdGlvbmFsLy9FTiIKICAgImh0dHA6Ly93d3cudzMub3JnL1RSL2h0
+        bWw0L2xvb3NlLmR0ZCI+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8
+        bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQv
+        aHRtbDsgY2hhcnNldD11dGYtOCI+CiAgICA8dGl0bGU+RmVlZGlzY292ZXJ5
+        PC90aXRsZT4KICAgIDxtZXRhIG5hbWU9ImF1dGhvciIgY29udGVudD0iSnVs
+        aWVuIEdlbmVzdG91eCI+CjwvaGVhZD4KPGJvZHkgc3R5bGU9ImJhY2tncm91
+        bmQtY29sb3I6IzMzMzsgY29sb3I6IHdoaXRlOyBmb250LWZhbWlseTpoZWx2
+        ZXRpY2E7IHBhZGRpbmc6IDBweCAxMCUgMHB4IDEwJTsgZm9udC1zaXplOjEu
+        NGVtIj4KICAgIDxoMSBzdHlsZT0iY29sb3I6I0ZGMDA4MDsgZm9udC1zaXpl
+        OiAzLjRlbTsiPkZlZTxzcGFuIHN0eWxlPSJjb2xvcjogI0ZGODAwMDsiPmRp
+        c2NvPC9zcGFuPnZlcnk8L2gxPgogICAgPHA+CiAgICAgICAgTGV0IHRoZSBt
+        dXNpYyBwbGF5IQogICAgPC9wPgogICAgPGgyPlF1ZXJ5OjwvaDI+CiAgICA8
+        cD48Y29kZT5HRVQgaHR0cDovL2ZlZWRpc2NvdmVyeS5hcHBzcG90LmNvbS8/
+        dXJsPWh0dHA6Ly9ibG9nLnN1cGVyZmVlZHIuY29tPC9jb2RlPjwvcD4KICAg
+        IDxzbWFsbD5Zb3UgY2FuIGFzIHdlbGwgYWRkIGEgPGVtPmNhbGxiYWNrPC9l
+        bT4gcGFyYW1ldGVyLjwvc21hbGw+CiAgICA8aDI+UmVzcG9uc2U6PC9oMj4K
+        ICAgIAogICAgPHA+PGNvZGU+W3siaHJlZiI6Imh0dHA6Ly9ibG9nLnN1cGVy
+        ZmVlZHIuY29tL2F0b20ueG1sIiwidGl0bGUiOiJTdXBlcmZlZWRyJyB0aG91
+        Z2h0cyIsInJlbCI6ImFsdGVybmF0ZSIsInR5cGUiOiJhcHBsaWNhdGlvbi9h
+        dG9tK3htbCJ9XTwvY29kZT48L3A+CiAgICAKICAgIDxzcGFuIHN0eWxlPSJm
+        b250LXNpemU6MC42ZW07cG9zaXRpb246YWJzb2x1dGU7IGJvdHRvbTowOyBt
+        YXJnaW46MHB4IDBweCAyMHB4IDBweDsgcGFkZGluZzowcHg7Ij4KICAgICAg
+        ICBCcm91Z2h0IHRvIHlvdSBieSA8YSBocmVmPSJodHRwOi8vc3VwZXJmZWVk
+        ci5jb20iIHN0eWxlPSJjb2xvcjojQ0NDIiA+U3VwZXJmZWVkcjwvYT4mbmJz
+        cDs8aW1nIHNyYz0iaHR0cDovL3d3dy5ncmF2YXRhci5jb20vYXZhdGFyL2Ey
+        ZjdkNGRkNmRmN2RkNTllNGFkYWI4MTFjMDBhM2ExP3M9MjQiIHN0eWxlPSJ2
+        ZXJ0aWNhbC1hbGlnbjptaWRkbGU7Ij4gfAogICAgPGEgaHJlZj0iaHR0cDov
+        L2Jsb2cuc3VwZXJmZWVkci5jb20vYXBpL2ZlZWRzL2Rpc2NvdmVyeS9mZWVk
+        aXNjb3ZlcnkvZmVlZGlzY292ZXJ5LyIgc3R5bGU9ImNvbG9yOiNDQ0MiPkxl
+        YXJuIG1vcmU8L2E+IHwgPGEgaHJlZj0iaHR0cDovL2dpdGh1Yi5jb20vc3Vw
+        ZXJmZWVkci9mZWVkaXNjb3ZlcnkiICBzdHlsZT0iY29sb3I6I0NDQzsiPk1h
+        a2UgaXQgYmV0dGVyITwvYT4KICAgIDwvc3Bhbj4KPC9ib2R5Pgo8L2h0bWw+
+        Cg==
+    http_version: 
+  recorded_at: Tue, 16 Apr 2013 12:43:34 GMT
+recorded_with: VCR 2.4.0
