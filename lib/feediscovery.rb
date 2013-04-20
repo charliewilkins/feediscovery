@@ -2,28 +2,27 @@ require "feediscovery/version"
 
 module Feediscovery
   class DiscoverFeedService
-    require 'curb'
     require 'json'
     require 'google-search'
 
-    attr_reader :request_url, :uri
+    attr_reader :url, :uri
 
     def initialize(url)
-      self.request_url = url
+      self.url = url
     end
 
-    def request_url=(url)
+    def url=(url)
       begin
         @uri = URI.parse url
         if valid_uri?
-          @request_url = url
+          @url = url
         else
           search = search_result(url)
-          @request_url = search.uri
+          @url = search.uri
         end
       rescue
         search = search_result(url)
-        @request_url = search.uri
+        @url = search.uri
       end
     end
 
@@ -43,21 +42,21 @@ module Feediscovery
     end
 
     def disco_url
-      "http://feediscovery.appspot.com/?url=#{self.request_url}"
+      "http://feediscovery.appspot.com/?url=#{self.url}"
     end
 
     def perform_request
-      response = Curl::Easy.perform(disco_url) do |curl|
-        curl.headers["User-Agent"] = "1kpl.us/ruby"
-        curl.max_redirects = 5
-        curl.timeout = 30
-        curl.follow_location = true
-        curl.on_redirect {|easy,code|
-          @url = location_from_header(easy.header_str) if easy.response_code == 301
-        }
-      end
-
-      JSON.parse(response.body_str).map {|e| OpenStruct.new e}
+      #response = Curl::Easy.perform(disco_url) do |curl|
+        #curl.headers["User-Agent"] = "1kpl.us/ruby"
+        #curl.max_redirects = 5
+        #curl.timeout = 30
+        #curl.follow_location = true
+        #curl.on_redirect {|easy,code|
+          #@url = location_from_header(easy.header_str) if easy.response_code == 301
+        #}
+      #end
+      response = Typhoeus::Request.get(disco_url, followlocation: true)
+      JSON.parse(response.body).map {|e| OpenStruct.new e}
     end
 
   end

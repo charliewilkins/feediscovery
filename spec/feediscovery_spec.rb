@@ -7,12 +7,13 @@ require_relative '../lib/feediscovery.rb'
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   c.hook_into :webmock # or :fakeweb
+  c.configure_rspec_metadata!
 end
 
-describe Feediscovery::DiscoverFeedService do
+describe Feediscovery::DiscoverFeedService, :vcr => true do
   it "should have an attr_reader for url" do
     discoverer = Feediscovery::DiscoverFeedService.new("http://slashdot.org")
-    expect(discoverer.request_url).to eq("http://slashdot.org")
+    expect(discoverer.url).to eq("http://slashdot.org")
   end
 
   context "#initialize" do
@@ -29,26 +30,18 @@ describe Feediscovery::DiscoverFeedService do
       let(:discoverer) { Feediscovery::DiscoverFeedService.new("http://slashdot.org") }
 
       it "retrieves href for specified url" do
-        VCR.use_cassette('get_slashdot_url') do
-          expect(discoverer.result.first.href).to eq('http://rss.slashdot.org/Slashdot/slashdot')
-        end
+        expect(discoverer.result.first.href).to eq('http://rss.slashdot.org/Slashdot/slashdot')
       end
 
       it "retrieves title for specified url" do
-        VCR.use_cassette('get_slashdot_url') do
-          expect(discoverer.result.first.title).to eq('Slashdot RSS')
-        end
+        expect(discoverer.result.first.title).to eq('Slashdot RSS')
       end
 
       it "retrieves rel for specified url" do
-        VCR.use_cassette('get_slashdot_url') do
-          expect(discoverer.result.first.rel).to eq('alternate')
-        end
+        expect(discoverer.result.first.rel).to eq('alternate')
       end
       it "retrieves type for specified url" do
-        VCR.use_cassette('get_slashdot_url') do
-          expect(discoverer.result.first.type).to eq('application/rss+xml')
-        end
+        expect(discoverer.result.first.type).to eq('application/rss+xml')
       end
 
     end
@@ -57,11 +50,9 @@ describe Feediscovery::DiscoverFeedService do
       let(:discoverer) { Feediscovery::DiscoverFeedService.new("reddit") }
 
       it "use google to get a result" do
-        VCR.use_cassette('get_reddit_url', :record => :new_episodes) do
-          result = discoverer.result
-          expect(result.first.title).to eq "RSS"
-          expect(result.first.href).to eq "http://www.reddit.com/.rss"
-        end
+        result = discoverer.result
+        expect(result.first.title).to eq "RSS"
+        expect(result.first.href).to eq "http://www.reddit.com/.rss"
       end
     end
 
@@ -69,11 +60,9 @@ describe Feediscovery::DiscoverFeedService do
       let(:discoverer) { Feediscovery::DiscoverFeedService.new("reddit rails") }
 
       it "use google to get a result" do
-        VCR.use_cassette('get_reddit_url', :record => :new_episodes) do
-          result = discoverer.result
-          expect(result.first.title).to eq "RSS"
-          expect(result.first.href).to eq "http://www.reddit.com/r/rails/.rss"
-        end
+        result = discoverer.result
+        expect(result.first.title).to eq "RSS"
+        expect(result.first.href).to eq "http://www.reddit.com/r/rails/.rss"
       end
     end
 

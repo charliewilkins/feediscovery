@@ -1,0 +1,207 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.google.com/uds/GwebSearch?filter=1&hl=en&key=notsupplied&q=reddit%20rails&rsz=large&start=0&v=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Sat, 20 Apr 2013 20:23:30 GMT
+      Content-Type:
+      - text/javascript; charset=utf-8
+      X-Embedded-Status:
+      - '200'
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXNwb25zZURhdGEiOiB7InJlc3VsdHMiOlt7IkdzZWFyY2hSZXN1bHRD
+        bGFzcyI6Ikd3ZWJTZWFyY2giLCJ1bmVzY2FwZWRVcmwiOiJodHRwOi8vcmVk
+        ZGl0LmNvbS9yL3JhaWxzIiwidXJsIjoiaHR0cDovL3JlZGRpdC5jb20vci9y
+        YWlscyIsInZpc2libGVVcmwiOiJyZWRkaXQuY29tIiwiY2FjaGVVcmwiOiJo
+        dHRwOi8vd3d3Lmdvb2dsZS5jb20vc2VhcmNoP3FcdTAwM2RjYWNoZTplRWl0
+        bkhGNGhHY0o6cmVkZGl0LmNvbSIsInRpdGxlIjoiXHUwMDNjYlx1MDAzZVJl
+        ZGRpdFx1MDAzYy9iXHUwMDNlIGZvciBcdTAwM2NiXHUwMDNlUmFpbHNcdTAw
+        M2MvYlx1MDAzZSBoYWNrZXJzIiwidGl0bGVOb0Zvcm1hdHRpbmciOiJSZWRk
+        aXQgZm9yIFJhaWxzIGhhY2tlcnMiLCJjb250ZW50IjoiQSBzdWJyZWRkaXQg
+        Zm9yIGRpc2N1c3Npb24gYW5kIG5ld3MgYWJvdXQgUnVieSBvbiBcdTAwM2Ni
+        XHUwMDNlUmFpbHNcdTAwM2MvYlx1MDAzZSBkZXZlbG9wbWVudC4gUG9zdHMg
+        ICBhYm91dCB0aGUgUnVieSBwcm9ncmFtbWluZyBsYW5ndWFnZSBhcmUgZW5j
+        b3VyYWdlZCB0byBiZSBwb3N0ZWQgaW4gdGhlIC9yLyAgcnVieSBcdTAwM2Ni
+        XHUwMDNlLi4uXHUwMDNjL2JcdTAwM2UifSx7IkdzZWFyY2hSZXN1bHRDbGFz
+        cyI6Ikd3ZWJTZWFyY2giLCJ1bmVzY2FwZWRVcmwiOiJodHRwOi8vd3d3LnJl
+        ZGRpdC5jb20vci9ydWJ5LyIsInVybCI6Imh0dHA6Ly93d3cucmVkZGl0LmNv
+        bS9yL3J1YnkvIiwidmlzaWJsZVVybCI6Ind3dy5yZWRkaXQuY29tIiwiY2Fj
+        aGVVcmwiOiJodHRwOi8vd3d3Lmdvb2dsZS5jb20vc2VhcmNoP3FcdTAwM2Rj
+        YWNoZTpYZFprRTNDTDBlOEo6d3d3LnJlZGRpdC5jb20iLCJ0aXRsZSI6Ilx1
+        MDAzY2JcdTAwM2VyZWRkaXRcdTAwM2MvYlx1MDAzZSBmb3IgcnVieSBoYWNr
+        ZXJzIiwidGl0bGVOb0Zvcm1hdHRpbmciOiJyZWRkaXQgZm9yIHJ1YnkgaGFj
+        a2VycyIsImNvbnRlbnQiOiJBIFx1MDAzY2JcdTAwM2VyZWRkaXRcdTAwM2Mv
+        Ylx1MDAzZSBmb3IgZGlzY3Vzc2lvbiBhbmQgbmV3cyBhYm91dCBydWJ5IHBy
+        b2dyYW1taW5nLiBSdWJ5LW9uLVx1MDAzY2JcdTAwM2VSYWlsc1x1MDAzYy9i
+        XHUwMDNlIHBvc3RzICAgYXJlIGVuY291cmFnZWQgdG8gYmUgcG9zdGVkIGlu
+        IHRoZSByL1x1MDAzY2JcdTAwM2VyYWlsc1x1MDAzYy9iXHUwMDNlIHN1YnJl
+        ZGRpdC4gTGVhcm5pbmcgUnVieT8gVHJ5UnVieSBpbiBcdTAwM2NiXHUwMDNl
+        Li4uXHUwMDNjL2JcdTAwM2UifSx7IkdzZWFyY2hSZXN1bHRDbGFzcyI6Ikd3
+        ZWJTZWFyY2giLCJ1bmVzY2FwZWRVcmwiOiJodHRwOi8vd3d3LnJlZGRpdC5j
+        b20vci9yYWlscy93aWRnZXQvIiwidXJsIjoiaHR0cDovL3d3dy5yZWRkaXQu
+        Y29tL3IvcmFpbHMvd2lkZ2V0LyIsInZpc2libGVVcmwiOiJ3d3cucmVkZGl0
+        LmNvbSIsImNhY2hlVXJsIjoiaHR0cDovL3d3dy5nb29nbGUuY29tL3NlYXJj
+        aD9xXHUwMDNkY2FjaGU6cklOSVNDVkhXZnNKOnd3dy5yZWRkaXQuY29tIiwi
+        dGl0bGUiOiJcdTAwM2NiXHUwMDNlcmFpbHNcdTAwM2MvYlx1MDAzZTogXHUw
+        MDNjYlx1MDAzZXJlZGRpdFx1MDAzYy9iXHUwMDNlIHdpZGdldCIsInRpdGxl
+        Tm9Gb3JtYXR0aW5nIjoicmFpbHM6IHJlZGRpdCB3aWRnZXQiLCJjb250ZW50
+        IjoiZ2V0IGxpdmUgXHUwMDNjYlx1MDAzZXJhaWxzXHUwMDNjL2JcdTAwM2Ug
+        aGVhZGxpbmVzIG9uIHlvdXIgc2l0ZS4ganVzdCBjdXQgYW5kIHBhc3RlIHRo
+        ZSBnZW5lcmF0ZWQgY29kZSBpbnRvICAgeW91ciBzaXRlIGFuZCB5b3VyIHNw
+        ZWNpZmllZCBcdTAwM2NiXHUwMDNlcmFpbHNcdTAwM2MvYlx1MDAzZSBmZWVk
+        IHdpbGwgYmUgZGlzcGxheWVkIGFuZCB1cGRhdGVkIGFzIG5ldyBcdTAwM2Ni
+        XHUwMDNlLi4uXHUwMDNjL2JcdTAwM2UifSx7IkdzZWFyY2hSZXN1bHRDbGFz
+        cyI6Ikd3ZWJTZWFyY2giLCJ1bmVzY2FwZWRVcmwiOiJodHRwOi8vdXJlZGRp
+        dC5jb20vY2xhc3MvNDAyNTAvd2ViLXByb2dyYW1taW5nLXdpdGgtcnVieS1v
+        bi1yYWlscyIsInVybCI6Imh0dHA6Ly91cmVkZGl0LmNvbS9jbGFzcy80MDI1
+        MC93ZWItcHJvZ3JhbW1pbmctd2l0aC1ydWJ5LW9uLXJhaWxzIiwidmlzaWJs
+        ZVVybCI6InVyZWRkaXQuY29tIiwiY2FjaGVVcmwiOiJodHRwOi8vd3d3Lmdv
+        b2dsZS5jb20vc2VhcmNoP3FcdTAwM2RjYWNoZTo3alRkdFJHcEpRMEo6dXJl
+        ZGRpdC5jb20iLCJ0aXRsZSI6IlVuaXZlcnNpdHkgb2YgXHUwMDNjYlx1MDAz
+        ZVJlZGRpdFx1MDAzYy9iXHUwMDNlIDogV2ViIFByb2dyYW1taW5nIHdpdGgg
+        UnVieSBvbiBcdTAwM2NiXHUwMDNlUmFpbHNcdTAwM2MvYlx1MDAzZSIsInRp
+        dGxlTm9Gb3JtYXR0aW5nIjoiVW5pdmVyc2l0eSBvZiBSZWRkaXQgOiBXZWIg
+        UHJvZ3JhbW1pbmcgd2l0aCBSdWJ5IG9uIFJhaWxzIiwiY29udGVudCI6IkV2
+        ZXIgd2FudCB0byBrbm93IGhvdyBUd2l0dGVyLCBvciBcdTAwM2NiXHUwMDNl
+        UmVkZGl0XHUwMDNjL2JcdTAwM2UsIG9yIEZhY2Vib29rIHdhcyBidWlsdD8g
+        V2hhdCBpZiBJIHRvbGQgICB5b3UsIGluIDEwIHNob3J0IHdlZWtzIHlvdSBj
+        b3VsZCBoYXZlIHRoZSBza2lsbHMgYW5kIGtub3dsZWRnZSB0byBoYXZlIHJl
+        cGxpY2FzIFx1MDAzY2JcdTAwM2UuLi5cdTAwM2MvYlx1MDAzZSJ9LHsiR3Nl
+        YXJjaFJlc3VsdENsYXNzIjoiR3dlYlNlYXJjaCIsInVuZXNjYXBlZFVybCI6
+        Imh0dHBzOi8vZ2l0aHViLmNvbS9zY2huZWVtcy9yZWRkaXRfb25fcmFpbHMi
+        LCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vc2NobmVlbXMvcmVkZGl0X29u
+        X3JhaWxzIiwidmlzaWJsZVVybCI6ImdpdGh1Yi5jb20iLCJjYWNoZVVybCI6
+        Imh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g/cVx1MDAzZGNhY2hlOjd5
+        djdHSlctSERRSjpnaXRodWIuY29tIiwidGl0bGUiOiJzY2huZWVtcy9yZWRk
+        aXRfb25fcmFpbHMgwrcgR2l0SHViIiwidGl0bGVOb0Zvcm1hdHRpbmciOiJz
+        Y2huZWVtcy9yZWRkaXRfb25fcmFpbHMgwrcgR2l0SHViIiwiY29udGVudCI6
+        Ikp1bCAyOSwgMjAxMiBcdTAwM2NiXHUwMDNlLi4uXHUwMDNjL2JcdTAwM2Ug
+        QSBIZXJvXHUwMDI2IzM5O3MgSm91cm5leS4gQ29udHJpYnV0ZSB0byByZWRk
+        aXRfb25fcmFpbHMgZGV2ZWxvcG1lbnQgYnkgY3JlYXRpbmcgYW4gICBhY2Nv
+        dW50IG9uIEdpdEh1Yi4ifSx7IkdzZWFyY2hSZXN1bHRDbGFzcyI6Ikd3ZWJT
+        ZWFyY2giLCJ1bmVzY2FwZWRVcmwiOiJodHRwczovL2dpdGh1Yi5jb20vaGF5
+        a3NhYWtpYW4vcmVkZGl0LW9uLXJhaWxzIiwidXJsIjoiaHR0cHM6Ly9naXRo
+        dWIuY29tL2hheWtzYWFraWFuL3JlZGRpdC1vbi1yYWlscyIsInZpc2libGVV
+        cmwiOiJnaXRodWIuY29tIiwiY2FjaGVVcmwiOiJodHRwOi8vd3d3Lmdvb2ds
+        ZS5jb20vc2VhcmNoP3FcdTAwM2RjYWNoZTo1RkRETGNSaGU5SUo6Z2l0aHVi
+        LmNvbSIsInRpdGxlIjoiaGF5a3NhYWtpYW4vXHUwMDNjYlx1MDAzZXJlZGRp
+        dFx1MDAzYy9iXHUwMDNlLW9uLVx1MDAzY2JcdTAwM2VyYWlsc1x1MDAzYy9i
+        XHUwMDNlIMK3IEdpdEh1YiIsInRpdGxlTm9Gb3JtYXR0aW5nIjoiaGF5a3Nh
+        YWtpYW4vcmVkZGl0LW9uLXJhaWxzIMK3IEdpdEh1YiIsImNvbnRlbnQiOiJc
+        dTAwM2NiXHUwMDNlcmVkZGl0XHUwMDNjL2JcdTAwM2Utb24tXHUwMDNjYlx1
+        MDAzZXJhaWxzXHUwMDNjL2JcdTAwM2UgLSBhIGRlbW8gb2YgaW5maW5pdGUg
+        Y29tbWVudHMsIGxpa2UgXHUwMDNjYlx1MDAzZXJlZGRpdFx1MDAzYy9iXHUw
+        MDNlLCB1c2luZyBtb25nb2lkLiJ9LHsiR3NlYXJjaFJlc3VsdENsYXNzIjoi
+        R3dlYlNlYXJjaCIsInVuZXNjYXBlZFVybCI6Imh0dHA6Ly9pZGVhc29ucmFp
+        bHMuYmxvZ3Nwb3QuY29tLzIwMDYvMDYvcmV3cml0aW5nLXJlZGRpdC1pbi1y
+        YWlscy1pbi1sZXNzLXRoYW4uaHRtbCIsInVybCI6Imh0dHA6Ly9pZGVhc29u
+        cmFpbHMuYmxvZ3Nwb3QuY29tLzIwMDYvMDYvcmV3cml0aW5nLXJlZGRpdC1p
+        bi1yYWlscy1pbi1sZXNzLXRoYW4uaHRtbCIsInZpc2libGVVcmwiOiJpZGVh
+        c29ucmFpbHMuYmxvZ3Nwb3QuY29tIiwiY2FjaGVVcmwiOiJodHRwOi8vd3d3
+        Lmdvb2dsZS5jb20vc2VhcmNoP3FcdTAwM2RjYWNoZTpTYXltM1BLT0QxQUo6
+        aWRlYXNvbnJhaWxzLmJsb2dzcG90LmNvbSIsInRpdGxlIjoiUmV3cml0aW5n
+        IFx1MDAzY2JcdTAwM2VSZWRkaXRcdTAwM2MvYlx1MDAzZSBpbiBcdTAwM2Ni
+        XHUwMDNlUmFpbHNcdTAwM2MvYlx1MDAzZSBpbiBsZXNzIHRoYW4gMjAgbWlu
+        dXRlcyB8IElkZWFzIG9uIFx1MDAzY2JcdTAwM2VSYWlsc1x1MDAzYy9iXHUw
+        MDNlIiwidGl0bGVOb0Zvcm1hdHRpbmciOiJSZXdyaXRpbmcgUmVkZGl0IGlu
+        IFJhaWxzIGluIGxlc3MgdGhhbiAyMCBtaW51dGVzIHwgSWRlYXMgb24gUmFp
+        bHMiLCJjb250ZW50IjoiSnVuIDExLCAyMDA2IFx1MDAzY2JcdTAwM2UuLi5c
+        dTAwM2MvYlx1MDAzZSBSZXdyaXRpbmcgXHUwMDNjYlx1MDAzZVJlZGRpdFx1
+        MDAzYy9iXHUwMDNlIGluIFx1MDAzY2JcdTAwM2VSYWlsc1x1MDAzYy9iXHUw
+        MDNlIGluIGxlc3MgdGhhbiAyMCBtaW51dGVzLiBJIHJlY2VudGx5IHdhdGNo
+        ZWQgU3ZlbiBWYW4gICBDYWVrZW5iZXJnaGVcdTAwMjYjMzk7cyBleGNlbGxl
+        bnQgdmlkZW8gb24gaG93IHRvIHdyaXRlIGEgd2ViIGFwcCBsaWtlIFx1MDAz
+        Y2JcdTAwM2UuLi5cdTAwM2MvYlx1MDAzZSJ9LHsiR3NlYXJjaFJlc3VsdENs
+        YXNzIjoiR3dlYlNlYXJjaCIsInVuZXNjYXBlZFVybCI6Imh0dHA6Ly9zY2hu
+        ZWVtcy5jb20vdXQtcmFpbHMiLCJ1cmwiOiJodHRwOi8vc2NobmVlbXMuY29t
+        L3V0LXJhaWxzIiwidmlzaWJsZVVybCI6InNjaG5lZW1zLmNvbSIsImNhY2hl
+        VXJsIjoiaHR0cDovL3d3dy5nb29nbGUuY29tL3NlYXJjaD9xXHUwMDNkY2Fj
+        aGU6WTFWenZEZ0NUcm9KOnNjaG5lZW1zLmNvbSIsInRpdGxlIjoiU2NobmVl
+        bXMg4oCiIFVUIG9uIFx1MDAzY2JcdTAwM2VSYWlsc1x1MDAzYy9iXHUwMDNl
+        IiwidGl0bGVOb0Zvcm1hdHRpbmciOiJTY2huZWVtcyDigKIgVVQgb24gUmFp
+        bHMiLCJjb250ZW50IjoiVGhpcyBpc25cdTAwMjYjMzk7dCBhIGZvbGxvdyBh
+        bG9uZyBjb3B5IGFuZCBwYXN0ZSB0dXRvcmlhbCwgdGhpcyBpcyBob3cgSSB3
+        b3JrIHdoZW4gSVx1MDAyNiMzOTttICAgbWFraW5nIHdlYnNpdGVzLiBHb29k
+        IGx1Y2ssIHlvdVx1MDAyNiMzOTtsbCBuZWVkIGl0LiBCdWlsZGluZyBCdWls
+        ZGluZyBcdTAwM2NiXHUwMDNlUmVkZGl0XHUwMDNjL2JcdTAwM2UgaW4gXHUw
+        MDNjYlx1MDAzZVJhaWxzXHUwMDNjL2JcdTAwM2UgXHUwMDNjYlx1MDAzZS4u
+        Llx1MDAzYy9iXHUwMDNlIn1dLCJjdXJzb3IiOnsicmVzdWx0Q291bnQiOiIx
+        LDEwMCwwMDAiLCJwYWdlcyI6W3sic3RhcnQiOiIwIiwibGFiZWwiOjF9LHsi
+        c3RhcnQiOiI4IiwibGFiZWwiOjJ9LHsic3RhcnQiOiIxNiIsImxhYmVsIjoz
+        fSx7InN0YXJ0IjoiMjQiLCJsYWJlbCI6NH0seyJzdGFydCI6IjMyIiwibGFi
+        ZWwiOjV9LHsic3RhcnQiOiI0MCIsImxhYmVsIjo2fSx7InN0YXJ0IjoiNDgi
+        LCJsYWJlbCI6N30seyJzdGFydCI6IjU2IiwibGFiZWwiOjh9XSwiZXN0aW1h
+        dGVkUmVzdWx0Q291bnQiOiIxMTAwMDAwIiwiY3VycmVudFBhZ2VJbmRleCI6
+        MCwibW9yZVJlc3VsdHNVcmwiOiJodHRwOi8vd3d3Lmdvb2dsZS5jb20vc2Vh
+        cmNoP29lXHUwMDNkdXRmOFx1MDAyNmllXHUwMDNkdXRmOFx1MDAyNnNvdXJj
+        ZVx1MDAzZHVkc1x1MDAyNnN0YXJ0XHUwMDNkMFx1MDAyNmZpbHRlclx1MDAz
+        ZDFcdTAwMjZobFx1MDAzZGVuXHUwMDI2cVx1MDAzZHJlZGRpdCtyYWlscyIs
+        InNlYXJjaFJlc3VsdFRpbWUiOiIwLjA2In19LCAicmVzcG9uc2VEZXRhaWxz
+        IjogbnVsbCwgInJlc3BvbnNlU3RhdHVzIjogMjAwfQ==
+    http_version: 
+  recorded_at: Sat, 20 Apr 2013 20:23:30 GMT
+- request:
+    method: get
+    uri: http://feediscovery.appspot.com/?url=http://reddit.com/r/rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/javascript
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 20 Apr 2013 20:23:32 GMT
+      Server:
+      - Google Frontend
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '[{"href": "http://www.reddit.com/r/rails/.rss", "type": "application/rss+xml",
+        "rel": "alternate", "title": "RSS"}]'
+    http_version: 
+  recorded_at: Sat, 20 Apr 2013 20:23:32 GMT
+recorded_with: VCR 2.4.0

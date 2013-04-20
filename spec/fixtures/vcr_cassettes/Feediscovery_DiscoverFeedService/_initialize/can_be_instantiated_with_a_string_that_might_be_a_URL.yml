@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.google.com/uds/GwebSearch?filter=1&hl=en&key=notsupplied&q=slashdot&rsz=large&start=0&v=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Sat, 20 Apr 2013 20:23:28 GMT
+      Content-Type:
+      - text/javascript; charset=utf-8
+      X-Embedded-Status:
+      - '200'
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseData": {"results":[{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://slashdot.org/","url":"http://slashdot.org/","visibleUrl":"slashdot.org","cacheUrl":"http://www.google.com/search?q\u003dcache:jo3aRe29uHsJ:slashdot.org","title":"\u003cb\u003eSlashdot\u003c/b\u003e:
+        News for nerds, stuff that matters","titleNoFormatting":"Slashdot: News for
+        nerds, stuff that matters","content":"35 minutes ago \u003cb\u003e...\u003c/b\u003e
+        Source for technology related news with a heavy slant towards Linux and Open   Source
+        issues."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://science.slashdot.org/","url":"http://science.slashdot.org/","visibleUrl":"science.slashdot.org","cacheUrl":"http://www.google.com/search?q\u003dcache:yjiEhzydYzUJ:science.slashdot.org","title":"\u003cb\u003eSlashdot\u003c/b\u003e:
+        News for nerds, stuff that matters","titleNoFormatting":"Slashdot: News for
+        nerds, stuff that matters","content":"Please create an account to participate   in
+        the Slashdot moderation system \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://linux.slashdot.org/","url":"http://linux.slashdot.org/","visibleUrl":"linux.slashdot.org","cacheUrl":"http://www.google.com/search?q\u003dcache:xu7YujZEAzoJ:linux.slashdot.org","title":"\u003cb\u003eSlashdot\u003c/b\u003e:
+        News for nerds, stuff that matters","titleNoFormatting":"Slashdot: News for
+        nerds, stuff that matters","content":"Ars Technica review Lee Hutchinson   says
+        that Dell\u0026#39;s Ubuntu-loaded 13\u0026quot; \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://en.wikipedia.org/wiki/Slashdot","url":"http://en.wikipedia.org/wiki/Slashdot","visibleUrl":"en.wikipedia.org","cacheUrl":"http://www.google.com/search?q\u003dcache:gkZK-Y-X85AJ:en.wikipedia.org","title":"\u003cb\u003eSlashdot\u003c/b\u003e
+        - Wikipedia, the free encyclopedia","titleNoFormatting":"Slashdot - Wikipedia,
+        the free encyclopedia","content":"\u003cb\u003eSlashdot\u003c/b\u003e (sometimes
+        abbreviated as /.) is a technology-related news website   owned by the US-based
+        company Dice Holdings, Inc. The site, which bills itself   as \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"https://twitter.com/slashdot","url":"https://twitter.com/slashdot","visibleUrl":"twitter.com","cacheUrl":"http://www.google.com/search?q\u003dcache:5gxjw5EZ0I4J:twitter.com","title":"\u003cb\u003eSlashdot\u003c/b\u003e
+        (\u003cb\u003eslashdot\u003c/b\u003e) on Twitter","titleNoFormatting":"Slashdot
+        (slashdot) on Twitter","content":"The latest from \u003cb\u003eSlashdot\u003c/b\u003e
+        (@\u003cb\u003eslashdot\u003c/b\u003e). \u003cb\u003eSlashdot\u003c/b\u003e
+        News Feed. News for Nerds, Stuff   that Matters. San Francisco."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"https://twitter.com/search?q\u003d%23slashdot","url":"https://twitter.com/search%3Fq%3D%2523slashdot","visibleUrl":"twitter.com","cacheUrl":"http://www.google.com/search?q\u003dcache:5XLxGcvP69sJ:twitter.com","title":"Twitter
+        / Search - #\u003cb\u003eslashdot\u003c/b\u003e","titleNoFormatting":"Twitter
+        / Search - #slashdot","content":"The latest and best tweets on #\u003cb\u003eslashdot\u003c/b\u003e.
+        Read what people are saying and join   the conversation."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://alterslash.org/","url":"http://alterslash.org/","visibleUrl":"alterslash.org","cacheUrl":"http://www.google.com/search?q\u003dcache:oyJ9t0ZfqEgJ:alterslash.org","title":"Alterslash,
+        the unofficial \u003cb\u003eSlashdot\u003c/b\u003e digest","titleNoFormatting":"Alterslash,
+        the unofficial Slashdot digest","content":"21 hours ago \u003cb\u003e...\u003c/b\u003e
+        Alterslash picks the best 5 comments from each of the day\u0026#39;s \u003cb\u003eSlashdot\u003c/b\u003e
+        stories, and   presents them on a single page for easy reading."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://homes.cs.washington.edu/~klee/misc/slashdot.html","url":"http://homes.cs.washington.edu/~klee/misc/slashdot.html","visibleUrl":"homes.cs.washington.edu","cacheUrl":"http://www.google.com/search?q\u003dcache:nEi0YSWufjwJ:homes.cs.washington.edu","title":"Quit
+        \u003cb\u003eSlashdot\u003c/b\u003e.org Today! - Washington - University of
+        Washington","titleNoFormatting":"Quit Slashdot.org Today! - Washington - University
+        of Washington","content":"Jun 2, 2005 \u003cb\u003e...\u003c/b\u003e Home
+        of the Quit \u003cb\u003eSlashdot\u003c/b\u003e movement. Reasons to quit,
+        alternatives, equally bad   sites, and a FAQ."}],"cursor":{"resultCount":"3,650,000","pages":[{"start":"0","label":1},{"start":"8","label":2},{"start":"16","label":3},{"start":"24","label":4},{"start":"32","label":5},{"start":"40","label":6},{"start":"48","label":7},{"start":"56","label":8}],"estimatedResultCount":"3650000","currentPageIndex":0,"moreResultsUrl":"http://www.google.com/search?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026start\u003d0\u0026filter\u003d1\u0026hl\u003den\u0026q\u003dslashdot","searchResultTime":"0.08"}},
+        "responseDetails": null, "responseStatus": 200}'
+    http_version: 
+  recorded_at: Sat, 20 Apr 2013 20:23:28 GMT
+recorded_with: VCR 2.4.0
