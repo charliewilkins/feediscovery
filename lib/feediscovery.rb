@@ -46,15 +46,6 @@ module Feediscovery
     end
 
     def perform_request
-      #response = Curl::Easy.perform(disco_url) do |curl|
-        #curl.headers["User-Agent"] = "1kpl.us/ruby"
-        #curl.max_redirects = 5
-        #curl.timeout = 30
-        #curl.follow_location = true
-        #curl.on_redirect {|easy,code|
-          #@url = location_from_header(easy.header_str) if easy.response_code == 301
-        #}
-      #end
       response = Typhoeus::Request.get(disco_url, followlocation: true)
       JSON.parse(response.body).map {|e| OpenStruct.new e}
     end
